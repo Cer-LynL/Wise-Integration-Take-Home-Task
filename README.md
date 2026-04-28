@@ -34,5 +34,5 @@ Import `postman/Wise_homework_collection.json` into Postman.
 ## Integration Flow
 
 1. GET /v2/profiles - Retrieve profile ID
-2. POST /v3/profiles/{id}/quotes - Create quote
-3. PATCH /v3/profiles/{id}/quotes/{quoteId} - Update quote
+2. POST /v3/profiles/{profileId}/quotes - Create quote
+3. PATCH /v3/profiles/{profileId}/quotes/{quoteId} - Update quote
